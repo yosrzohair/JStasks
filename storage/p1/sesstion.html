@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>srorage</title>
+</head>
+<body>
+
+    <div class="container registerBox">
+        <h2>Register</h2>
+        <form id="registerForm">
+            
+            <div class="form-group">
+                <label for="first name"> Name</label>
+                <input type="text" id="Name" name="Name">
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age">
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Brief Description</label>
+                <textarea id="description" name="description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="major">Major</label>
+                <input type="text" id="major" name="major">
+            </div>
+            <div class="form-group">
+                <label for="university">University</label>
+                <input type="text" id="university" name="university">
+            </div>
+            <div class="form-group">
+                <label for="languages">Programming Languages (select at least 3)</label>
+                <div>
+                    <input type="checkbox" id="language1" name="languages" value="JavaScript">
+                    <label for="language1">JavaScript</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="language2" name="languages" value="Python">
+                    <label for="language2">Python</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="language3" name="languages" value="Java">
+                    <label for="language3">Java</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="language4" name="languages" value="C#">
+                    <label for="language4">C#</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="language5" name="languages" value="Ruby">
+                    <label for="language5">Ruby</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="register">Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
